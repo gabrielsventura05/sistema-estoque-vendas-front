@@ -1,0 +1,21 @@
+body {
+
+    background: linear-gradient(135deg, #e9ecef, #dee2e6);
+}
+
+.title {
+
+    font-size: 20px;
+}
+
+input {
+
+    margin-bottom: 15px;
+}
+
+p {
+
+    text-align: center;
+   
+}
+

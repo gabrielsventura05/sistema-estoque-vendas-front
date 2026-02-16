@@ -1,0 +1,148 @@
+html,body {
+    height:100%;
+    
+    
+}
+
+.navbar {
+    height: 60px;
+}
+
+
+section {
+  height:calc(90% - 50px);
+}
+
+.affix {
+  padding:0px;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;  
+  -o-transition:padding 0.2s linear;         
+  transition:padding 0.2s linear;  
+
+}
+
+.affix-top {
+  padding-top:15px;
+  padding-bottom:15px;
+  -webkit-transition:padding 0.5s linear;
+  -moz-transition:padding 0.5s linear;  
+  -o-transition:padding 0.5s linear;         
+  transition:padding 0.5s linear;  
+}
+
+a .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100px;
+  margin-top: -15px;
+  
+}
+
+.dropdown-menu{
+
+  width: 50px !important;
+}
+
+li {
+
+  margin-right: 20px;
+}
+a img {
+
+  width: 100px;
+}
+
+.container-fluid {
+
+    background-color: black;
+}
+
+.navbar div ul li a {
+
+    color: white;
+}
+
+.navbar div ul li {
+
+    margin-right: 20px;
+}
+
+
+.navbar div ul .nav-item .nav-link{
+
+    color: white;
+}
+
+.navbar div ul li {
+
+    margin-right: 20px;
+}
+
+
+.navbar div ul li .dropdown-menu  {
+    background-color: black;
+
+    
+}
+
+
+.navbar div ul li .dropdown-menu li a:hover {
+
+    background-color: black;
+    color: white;
+    
+}
+
+.navbar div ul li .dropdown-menu li a:hover {
+
+    background-color: black;
+    color: white;
+    
+}
+
+.navbar div ul .nav-item .nav-link:hover {
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navbar div ul .nav-item .nav-link:active {
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+.navbar div ul .nav-item .nav-link:visited {
+
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+a img {
+
+    width: 100px;
+}
+
+.menu {
+
+    padding-top: 10px;
+margin-left: 5px;
+
+}
+
+.menu .item-2 {
+
+    margin-top: 10px;
+}
+
+
+
+

@@ -1,0 +1,56 @@
+
+body {
+
+    background: linear-gradient(135deg, #e9ecef, #dee2e6);
+}
+
+
+table {
+  
+  border-radius: 6px;
+  overflow: hidden;
+
+}
+
+.table thead tr th {
+
+ background-color: gray;
+}
+
+.table tbody tr td {
+
+  background-color: rgb(202, 202, 202)
+}
+
+
+.table thead tr th {
+  text-align: center;
+
+    font-weight: bold;
+}
+
+.table tbody tr td {
+
+text-align: center;
+}
+
+.table tbody tr td a {
+
+   display: inline-flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center;     /* Centraliza verticalmente */
+ 
+}
+
+.td-1 {
+
+    width: 30%;
+}
+
+.container {
+
+    max-width: 900px; 
+    margin-top: 5%;
+}
+
+

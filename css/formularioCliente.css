@@ -1,0 +1,76 @@
+
+body {
+
+    background: linear-gradient(135deg, #e9ecef, #dee2e6);
+}
+
+
+.navbar {
+
+    height: 60px;
+}
+
+.navbar a {
+
+    margin-left: 20px;
+}
+
+.container .card {
+
+    width: 350px; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
+.navbar-collapse {
+
+    margin-left: 40%; width: 100%; 
+}
+
+.container .card-show {
+
+    width: 350px; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+}
+
+
+.container .card-show .card-header {
+
+    height: 60px; width: 352px; 
+    margin-left: -2px;
+    margin-top: -5px;
+}
+
+.container .card-header {
+
+    height: 60px;
+}
+
+.buttons {
+
+    margin-top: 15%;
+}
+
+.table th {
+ 
+  font-weight: 600;
+}
+
+.table, thead tr, th, td {
+
+    border: 1px solid black;
+
+   
+}
+
+.container .card {
+
+    width: 750px;
+}
+
+#buttons {
+
+    margin-top: 3%;
+}
+

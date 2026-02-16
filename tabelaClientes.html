@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" type="text/css" href="css/menu.css">
+
+ <link rel="stylesheet" href="css/tabelaClientes.css">
+    <title>Ventura E-commerce - Clientes </title>
+</head>
+<body >
+
+
+
+ <!--COMEÇO MENU-->
+<script>
+  fetch("menu.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("menu").innerHTML = data;
+    });
+</script>
+
+<div id="menu"></div>
+<!--FIM MENU-->
+
+
+
+<div class="mt-5" >
+    <h1 class="text-center">Clientes</h1>
+
+</div>
+
+<div class="container d-flex align-items-center justify-content-center" >
+<table class="table   ">
+  <thead>
+    <tr class="">
+      <th scope="col">Nome</th>
+      <th scope="col">Email</th>
+      <th scope="col">Telefone</th>
+      <th scope="col">Genero</th>
+      <th scope="col">Opções</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="td-1"  scope="row">Gabriel</td>
+      <td >gabriel@hotmail.com</td>
+      <td> 2222233333</td>
+      <td>Masculino</td>
+      <td><a class="btn btn-sm btn-primary" title="Ver ficha do cliente" href="detalhesCliente.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td scope="row">Marcos</td>
+      <td>marcos@hotmail.com</td>
+      <td>1111122222</td>
+      <td>Masculino</td>
+      <td><a class="btn btn-sm btn-primary" title="Ver ficha do cliente" href="detalhesCliente.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td  scope="row">Joao</td>
+      <td>joaozinho@hotmail.com</td>
+      <td>7777788888</td>
+      <td>Masculino</td>
+     <td><a class="btn btn-sm btn-primary" title="Ver ficha do cliente" href="detalhesCliente.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+        </a>
+      </td>
+    </tr>
+     <tr>
+      <td  scope="row">Maria</td>
+      <td>maria@hotmail.com</td>
+      <td>4444666666</td>
+      <td>Feminino</td>
+      <td><a class="btn btn-sm btn-primary" title="Ver ficha do cliente" href="detalhesCliente.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+        </a>
+      </td>
+    </tr>
+
+  
+  </tbody>
+</table>
+    </div>
+</body>
+</html>

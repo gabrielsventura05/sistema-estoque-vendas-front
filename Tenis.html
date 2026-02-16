@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" type="text/css" href="css/menu.css">
+ <link rel="stylesheet" href="css/Produtos.css">
+    <title>Sistema vendas</title>
+</head>
+<body>
+
+    <!--COMEÇO MENU-->
+<script>
+  fetch("menu.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("menu").innerHTML = data;
+    });
+</script>
+
+<div id="menu"></div>
+<!--FIM MENU-->
+
+
+
+<h1 class="text-center mb-4" mt-5>Tênis</h1>
+
+        <div class="btn-add">
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCadastro">
+              Adicionar produto
+            </button>
+                                            
+        </div>
+                       
+
+
+<!--MODAL-->
+
+<div class="modal fade" id="modalCadastro" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <form action="cadastrar.php" method="POST" enctype="multipart/form-data">
+
+        <div class="modal-header btn btn-primary">
+          <h5 class="modal-title">Cadastrar item</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+
+          <div class="mb-3">
+            <label class="form-label">Nome produto</label>
+            <input type="text" name="nome" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Preço</label>
+            <input type="number" step="0.01" name="preco" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+    <label for="imagem" class="form-label">Imagem do produto</label>
+    <input 
+        type="file" 
+        class="form-control" 
+        id="imagem" 
+        name="imagem"
+        accept="image/*"
+    >
+</div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" name="cadastrar" class="btn btn-success">
+            Salvar
+          </button>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container py-5">
+    
+    <div class="row " >
+
+        <!-- Produto 1 -->
+        <div class="col-md-3">
+            <div class="card text-center shadow-sm" >
+              <div class="img-product" >
+                <img src="img/tenis/tenis-casual.png"  class="card-img-top p-3" alt="Calça Jeans">
+              </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tênis casual </h5>
+                    <p class="card-text text-muted">
+                        Para o dia a dia, sair, trabalhar. Confortável e estiloso.
+                    </p>
+                    <h4 class="text-primary">R$ 60,90</h4>
+                </div>
+                <div class="card-footer bg-white border-0">
+                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 2 -->
+        <div class="col-md-3">
+            <div class="card text-center shadow-sm" >
+               <div class="img-product" >
+              
+                <img src="img/tenis/tenis-esportivo.png" style="width: 300px;" class="card-img-top p-3" alt="Calça Social">
+               
+               </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tênis esportivo</h5>
+                    <p class="card-text text-muted">
+                        Confortável, tem amortecedor, perfeito atividades físicas.
+                    </p>
+                    <h4 class="text-primary">R$ 90,00</h4>
+                </div>
+                <div class="card-footer bg-white border-0" >
+                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Produto 3 -->
+        <div class="col-md-3">
+            <div class="card  text-center shadow-sm" >
+              <div class="img-product" >
+                <img src="img/tenis/sapatenis.png" style="width: 300px;" class="card-img-top p-3" alt="Calça Moletom">
+                </div>
+                
+                <div class="card-body">
+                    <h5 class="card-title" >Sapatênis</h5>
+                    <p class="card-text text-muted">
+                        Tem o conforto do tênis com a elegância do sapato casual.
+                    </p>
+                    <h4 class="text-primary">R$ 50,00</h4>
+                </div>
+                <div class="card-footer bg-white border-0" >
+                    <a href="#" class="btn btn-primary w-100">Comprar</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

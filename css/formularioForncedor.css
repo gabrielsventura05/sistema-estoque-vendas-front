@@ -1,0 +1,41 @@
+#container {
+
+    background-color: rgb(231, 228, 228); height: 33%; padding-top: 2%; padding-bottom: ;
+}
+
+.container .card {
+    width: 500px; 
+    margin-top: 5%; 
+    margin-bottom: 5%;
+
+}
+
+.container .card .card-header {
+
+    height: 60px; 
+    width: 750px; 
+    margin-left: -2px;
+    margin-top: -5px;
+}
+
+.container .card .card-body #fomr-obs {
+
+    margin-top: 5%;
+
+
+}
+
+.container .card .card-body #buttons {
+
+    margin-top: 10%;
+}
+
+.container .card {
+
+    width: 750px;
+}
+
+#buttons {
+
+    ,margin-top: 5%;
+}
